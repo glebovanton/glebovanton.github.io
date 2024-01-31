@@ -1,30 +1,5 @@
-<html>
-<head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5B2734R');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-210357405-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-210357405-1');
-    </script>
-
-
-
-
-
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Anton Glebov. CV</title>
-    <style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Anton Glebov. CV</title><style>
+/* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
 	-webkit-print-color-adjust: exact;
@@ -238,7 +213,7 @@ ul > li {
 }
 
 ul.to-do-list {
-	text-indent: -1.7em;
+	padding-inline-start: 0;
 }
 
 ul.to-do-list > li {
@@ -308,6 +283,33 @@ ol > li {
 	margin-right: 1em;
 }
 
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
 time {
 	opacity: 0.5;
 }
@@ -345,7 +347,7 @@ img.icon {
 	display: block;
 	object-fit: cover;
 	width: 100%;
-	height: 30vh;
+	max-height: 30vh;
 }
 
 .page-header-icon {
@@ -486,151 +488,172 @@ blockquote {
 	margin-top: 0.25em;
 }
 
-.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
 .mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
-
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
-
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
-
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
-
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
 .highlight-default {
+	color: rgba(55, 53, 47, 1);
 }
 .highlight-gray {
-	color: rgb(155,154,151);
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
 }
 .highlight-brown {
-	color: rgb(100,71,58);
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
 }
 .highlight-orange {
-	color: rgb(217,115,13);
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
 }
 .highlight-yellow {
-	color: rgb(223,171,1);
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
 }
 .highlight-teal {
-	color: rgb(15,123,108);
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
 }
 .highlight-blue {
-	color: rgb(11,110,153);
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
 }
 .highlight-purple {
-	color: rgb(105,64,165);
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
 }
 .highlight-pink {
-	color: rgb(173,26,114);
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
 }
 .highlight-red {
-	color: rgb(224,62,62);
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
 }
 .highlight-gray_background {
-	background: rgb(235,236,237);
+	background: rgba(241, 241, 239, 1);
 }
 .highlight-brown_background {
-	background: rgb(233,229,227);
+	background: rgba(244, 238, 238, 1);
 }
 .highlight-orange_background {
-	background: rgb(250,235,221);
+	background: rgba(251, 236, 221, 1);
 }
 .highlight-yellow_background {
-	background: rgb(251,243,219);
+	background: rgba(251, 243, 219, 1);
 }
 .highlight-teal_background {
-	background: rgb(221,237,234);
+	background: rgba(237, 243, 236, 1);
 }
 .highlight-blue_background {
-	background: rgb(221,235,241);
+	background: rgba(231, 243, 248, 1);
 }
 .highlight-purple_background {
-	background: rgb(234,228,242);
+	background: rgba(244, 240, 247, 0.8);
 }
 .highlight-pink_background {
-	background: rgb(244,223,235);
+	background: rgba(249, 238, 243, 0.8);
 }
 .highlight-red_background {
-	background: rgb(251,228,228);
+	background: rgba(253, 235, 236, 1);
 }
 .block-color-default {
 	color: inherit;
 	fill: inherit;
 }
 .block-color-gray {
-	color: rgba(55, 53, 47, 0.6);
-	fill: rgba(55, 53, 47, 0.6);
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
 }
 .block-color-brown {
-	color: rgb(100,71,58);
-	fill: rgb(100,71,58);
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
 }
 .block-color-orange {
-	color: rgb(217,115,13);
-	fill: rgb(217,115,13);
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
 }
 .block-color-yellow {
-	color: rgb(223,171,1);
-	fill: rgb(223,171,1);
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
 }
 .block-color-teal {
-	color: rgb(15,123,108);
-	fill: rgb(15,123,108);
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
 }
 .block-color-blue {
-	color: rgb(11,110,153);
-	fill: rgb(11,110,153);
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
 }
 .block-color-purple {
-	color: rgb(105,64,165);
-	fill: rgb(105,64,165);
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
 }
 .block-color-pink {
-	color: rgb(173,26,114);
-	fill: rgb(173,26,114);
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
 }
 .block-color-red {
-	color: rgb(224,62,62);
-	fill: rgb(224,62,62);
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
 }
 .block-color-gray_background {
-	background: rgb(235,236,237);
+	background: rgba(241, 241, 239, 1);
 }
 .block-color-brown_background {
-	background: rgb(233,229,227);
+	background: rgba(244, 238, 238, 1);
 }
 .block-color-orange_background {
-	background: rgb(250,235,221);
+	background: rgba(251, 236, 221, 1);
 }
 .block-color-yellow_background {
-	background: rgb(251,243,219);
+	background: rgba(251, 243, 219, 1);
 }
 .block-color-teal_background {
-	background: rgb(221,237,234);
+	background: rgba(237, 243, 236, 1);
 }
 .block-color-blue_background {
-	background: rgb(221,235,241);
+	background: rgba(231, 243, 248, 1);
 }
 .block-color-purple_background {
-	background: rgb(234,228,242);
+	background: rgba(244, 240, 247, 0.8);
 }
 .block-color-pink_background {
-	background: rgb(244,223,235);
+	background: rgba(249, 238, 243, 0.8);
 }
 .block-color-red_background {
-	background: rgb(251,228,228);
+	background: rgba(253, 235, 236, 1);
 }
-.select-value-color-default { background-color: rgba(206,205,202,0.5); }
-.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
-.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
-.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
-.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
-.select-value-color-green { background-color: rgba(0,135,107,0.2); }
-.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
-.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
-.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
-.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
 
 .checkbox {
 	display: inline-flex;
@@ -650,23 +673,9 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style>
-
-</head>
-<body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5B2734R"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-
-<article id="a7d55562-d548-45da-8229-dca170cbee6c" class="page sans"><header>
-    <img class="page-cover-image" src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/329-3293400_are-you-the-best-fullstack-developer-full-stack-removebg-preview.png"/></div><h1 class="page-title">Anton Glebov. CV</h1>
-</header>
-    <div class="page-body"><hr id="bd5139e8-3909-4759-81e5-5ace55b9ab2c"/><p id="eb4549f5-582a-415c-b9a8-a62e53a32cf0" class="">Menu<strong>:</strong></p><nav id="ebe74a11-72c2-4246-b1f5-fa60fdcdf8d5" class="block-color-gray table_of_contents"><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#95fbf547-9079-4de6-805f-694ef3712c2e">My life</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#7ded4f79-950e-4cc3-a4a6-7042d10c7681">My destiny</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#8a3c5f0f-929f-413e-8f50-ad5e7e0a20fc">Briefly about my experience</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#7506de88-1eae-42d0-8893-f07d436d4924">Briefly about my future</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#51fb5ebb-f2c1-40fa-b284-2e5191f39b50">I&#x27;m always open to new interesting projects</a></div></nav><hr id="b6d55921-2d0d-4a6d-8b82-1363366d7d11"/><blockquote id="18e07cec-ae21-4e1d-b59e-0e9d16babbe2" class="block-color-gray">I put so much spirit into the work I&#x27;m doing, so I believe in success. I have a great desire to work and develop professionally. I take responsibility for tasks and deal with them effectively. I like to work in a team because I think that I can always learn from my project teammates.</blockquote><h2 id="95fbf547-9079-4de6-805f-694ef3712c2e" class="">My life</h2><hr id="8715a955-a19d-47d1-8853-11d647215720"/><p id="82269e83-d053-444c-8ccb-9631de0166ab" class="">My friends taught me to play the guitar when I was 11. Later I played the African djembe. Since then I like to play it whether alone or not. In my free time, I am fond of recording and DJing. Together with my wife, we often go running and cycling. We love to travel despite COVID :). And of course, I can&#x27;t but mention the time I spend on self-education.</p><div id="11304572-1dfb-42a9-8cfa-8371230ca77d" class="column-list"><div id="24c74782-aaca-4397-9802-a2b9f84685e8" style="width:33.333333333333336%" class="column"><figure id="268ec4ac-5b1a-4e56-a65c-3028fffe2b22" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/1_(1).jpeg"><img style="width:1280px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/1_(1).jpeg"/></a></figure><figure id="942b2780-c18f-4c7c-a973-29d1d15c863f" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/5_(1).jpeg"><img style="width:384px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/5_(1).jpeg"/></a></figure></div><div id="381118ab-0ec2-4429-882c-0c53a4f3c64c" style="width:33.333333333333336%" class="column"><figure id="8ccd9068-d308-460b-aedd-3f62b905990d" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/4_(1).jpeg"><img style="width:2000px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/4_(1).jpeg"/></a></figure><figure id="73f47b75-da6c-46d8-905a-9b9368da42b1" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/3_(1).jpeg"><img style="width:2560px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/3_(1).jpeg"/></a></figure></div><div id="ca82b0a2-43b1-4214-b17f-71ff9976c006" style="width:33.33333333333333%" class="column"><figure id="2528bf89-db64-4243-94eb-cc207ed18f48" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/2_(1).jpeg"><img style="width:1344px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/2_(1).jpeg"/></a></figure><figure id="ecab36ac-2979-4bce-afba-598a25349975" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/6_(1).jpeg"><img style="width:1280px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/6_(1).jpeg"/></a></figure><p id="09a8abdd-b1b6-4722-830b-e61e4d0e21b4" class="">
-</p></div></div><h2 id="7ded4f79-950e-4cc3-a4a6-7042d10c7681" class="">My destiny</h2><hr id="6b4d74d2-5bce-417d-a71b-cc083b626764"/><p id="a44bac9d-b8b3-4776-b469-505ded80a86d" class="">I used to work as a sound engineer. But one way or another, I came across programming, though I considered it too difficult to start WEB developing. I created my first simple landing pages in <code>WordPress</code> and native <code>HTML</code> + <code>CSS</code>. But then I came up with the idea of making the websites more interactive. And started learning <code>JS</code> with <code>Jquery</code>. It seemed to be just another way of self-development until I realized that I was really into programming. So, my hobby has become my new profession. And I really hope to become a good full-stack developer.</p><h2 id="8a3c5f0f-929f-413e-8f50-ad5e7e0a20fc" class="">Briefly about my experience</h2><hr id="eca7b563-729b-435d-b3c8-adb771df27fc"/><p id="851a18d1-a23a-4c8f-91db-34d03a902a97" class="">I started out as a freelancer for my friends. Worked with <code>HTML</code> + <code>CSS</code> + <code>JQyery</code> + <code>JS</code>. I joined the <code>Noer</code> in 2017. And I continued projects by adding <code>VUE</code> + <code>Webpack</code> + <code>Figma</code> + <code>TargetProcess</code> + <code>Git</code> to my stack. The <code>Politico</code> project has been of great benefit. Here I dive deeper into using the technologies I already knew. In addition, I realized the need and began to use <code>Jira</code> + <code>Jest</code> + <code>Accessibility</code> + <code>BrowserStack</code> + <code>Storybook</code>. At  <code>Politico</code>, I had 6 sub-projects with different teams. And I really liked the practice of <code>Code review</code> + <code>Scrum</code> + <code>English practice</code>. </p><div id="3ef0e6a8-85ec-4d3f-b71c-1875fd0cfd6b" class="collection-content"><h4 class="collection-title">Last projects:</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesTitle"><path d="M7.73943662,8.6971831 C7.77640845,8.7834507 7.81338028,8.8943662 7.81338028,9.00528169 C7.81338028,9.49823944 7.40669014,9.89260563 6.91373239,9.89260563 C6.53169014,9.89260563 6.19894366,9.64612676 6.08802817,9.30105634 L5.75528169,8.33978873 L2.05809859,8.33978873 L1.72535211,9.30105634 C1.61443662,9.64612676 1.2693662,9.89260563 0.887323944,9.89260563 C0.394366197,9.89260563 0,9.49823944 0,9.00528169 C0,8.8943662 0.0246478873,8.7834507 0.0616197183,8.6971831 L2.46478873,2.48591549 C2.68661972,1.90669014 3.24119718,1.5 3.90669014,1.5 C4.55985915,1.5 5.12676056,1.90669014 5.34859155,2.48591549 L7.73943662,8.6971831 Z M2.60035211,6.82394366 L5.21302817,6.82394366 L3.90669014,3.10211268 L2.60035211,6.82394366 Z M11.3996479,3.70598592 C12.7552817,3.70598592 14,4.24823944 14,5.96126761 L14,9.07922535 C14,9.52288732 13.6549296,9.89260563 13.2112676,9.89260563 C12.8169014,9.89260563 12.471831,9.59683099 12.4225352,9.19014085 C12.028169,9.6584507 11.3257042,9.95422535 10.5492958,9.95422535 C9.60035211,9.95422535 8.47887324,9.31338028 8.47887324,7.98239437 C8.47887324,6.58978873 9.60035211,6.08450704 10.5492958,6.08450704 C11.3380282,6.08450704 12.040493,6.33098592 12.4348592,6.81161972 L12.4348592,5.98591549 C12.4348592,5.38204225 11.9172535,4.98767606 11.1285211,4.98767606 C10.6602113,4.98767606 10.2411972,5.11091549 9.80985915,5.38204225 C9.72359155,5.43133803 9.61267606,5.46830986 9.50176056,5.46830986 C9.18133803,5.46830986 8.91021127,5.1971831 8.91021127,4.86443662 C8.91021127,4.64260563 9.0334507,4.44542254 9.19366197,4.34683099 C9.87147887,3.90316901 10.6232394,3.70598592 11.3996479,3.70598592 Z M11.1778169,8.8943662 C11.6830986,8.8943662 12.1760563,8.72183099 12.4348592,8.37676056 L12.4348592,7.63732394 C12.1760563,7.29225352 11.6830986,7.11971831 11.1778169,7.11971831 C10.5616197,7.11971831 10.056338,7.45246479 10.056338,8.0193662 C10.056338,8.57394366 10.5616197,8.8943662 11.1778169,8.8943662 Z M0.65625,11.125 L13.34375,11.125 C13.7061869,11.125 14,11.4188131 14,11.78125 C14,12.1436869 13.7061869,12.4375 13.34375,12.4375 L0.65625,12.4375 C0.293813133,12.4375 4.43857149e-17,12.1436869 0,11.78125 C-4.43857149e-17,11.4188131 0.293813133,11.125 0.65625,11.125 Z"></path></svg></span>Project</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M7,4.56818 C7,4.29204 6.77614,4.06818 6.5,4.06818 L0.5,4.06818 C0.223858,4.06818 0,4.29204 0,4.56818 L0,5.61364 C0,5.88978 0.223858,6.11364 0.5,6.11364 L6.5,6.11364 C6.77614,6.11364 7,5.88978 7,5.61364 L7,4.56818 Z M0.5,1 C0.223858,1 0,1.223858 0,1.5 L0,2.54545 C0,2.8216 0.223858,3.04545 0.5,3.04545 L12.5,3.04545 C12.7761,3.04545 13,2.8216 13,2.54545 L13,1.5 C13,1.223858 12.7761,1 12.5,1 L0.5,1 Z M0,8.68182 C0,8.95796 0.223858,9.18182 0.5,9.18182 L11.5,9.18182 C11.7761,9.18182 12,8.95796 12,8.68182 L12,7.63636 C12,7.36022 11.7761,7.13636 11.5,7.13636 L0.5,7.13636 C0.223858,7.13636 0,7.36022 0,7.63636 L0,8.68182 Z M0,11.75 C0,12.0261 0.223858,12.25 0.5,12.25 L9.5,12.25 C9.77614,12.25 10,12.0261 10,11.75 L10,10.70455 C10,10.4284 9.77614,10.20455 9.5,10.20455 L0.5,10.20455 C0.223858,10.20455 0,10.4284 0,10.70455 L0,11.75 Z"></path></svg></span>Description1</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesUrl"><path d="M3.73333,3.86667 L7.46667,3.86667 C8.49613,3.86667 9.33333,4.70387 9.33333,5.73333 C9.33333,6.7628 8.49613,7.6 7.46667,7.6 L6.53333,7.6 C6.01813,7.6 5.6,8.0186 5.6,8.53333 C5.6,9.04807 6.01813,9.46667 6.53333,9.46667 L7.46667,9.46667 C9.5284,9.46667 11.2,7.79507 11.2,5.73333 C11.2,3.6716 9.5284,2 7.46667,2 L3.73333,2 C1.6716,2 0,3.6716 0,5.73333 C0,7.124 0.762067,8.33453 1.88953,8.97713 C1.87553,8.83107 1.86667,8.6836 1.86667,8.53333 C1.86667,7.92013 1.98753,7.33447 2.2036,6.7978 C1.99267,6.4954 1.86667,6.12953 1.86667,5.73333 C1.86667,4.70387 2.70387,3.86667 3.73333,3.86667 Z M12.1095,5.28907 C12.1231,5.4356 12.1333,5.58307 12.1333,5.73333 C12.1333,6.34607 12.0101,6.9294 11.7931,7.46513 C12.0059,7.768 12.1333,8.13573 12.1333,8.53333 C12.1333,9.5628 11.2961,10.4 10.2667,10.4 L6.53333,10.4 C5.50387,10.4 4.66667,9.5628 4.66667,8.53333 C4.66667,7.50387 5.50387,6.66667 6.53333,6.66667 L7.46667,6.66667 C7.98187,6.66667 8.4,6.24807 8.4,5.73333 C8.4,5.2186 7.98187,4.8 7.46667,4.8 L6.53333,4.8 C4.4716,4.8 2.8,6.4716 2.8,8.53333 C2.8,10.59507 4.4716,12.2667 6.53333,12.2667 L10.2667,12.2667 C12.3284,12.2667 14,10.59507 14,8.53333 C14,7.14267 13.2375,5.93167 12.1095,5.28907 Z"></path></svg></span>Web site</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesMultipleSelect"><path d="M4,3 C4,2.447715 4.447715,2 5,2 L12,2 C12.5523,2 13,2.447716 13,3 C13,3.55228 12.5523,4 12,4 L5,4 C4.447715,4 4,3.55228 4,3 Z M4,7 C4,6.447715 4.447715,6 5,6 L12,6 C12.5523,6 13,6.447716 13,7 C13,7.55228 12.5523,8 12,8 L5,8 C4.447715,8 4,7.55228 4,7 Z M4,11 C4,10.447715 4.447715,10 5,10 L12,10 C12.5523,10 13,10.447716 13,11 C13,11.55228 12.5523,12 12,12 L5,12 C4.447715,12 4,11.55228 4,11 Z M2,4 C1.44771525,4 1,3.55228475 1,3 C1,2.44771525 1.44771525,2 2,2 C2.55228475,2 3,2.44771525 3,3 C3,3.55228475 2.55228475,4 2,4 Z M2,8 C1.44771525,8 1,7.55228475 1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 C3,7.55228475 2.55228475,8 2,8 Z M2,12 C1.44771525,12 1,11.5522847 1,11 C1,10.4477153 1.44771525,10 2,10 C2.55228475,10 3,10.4477153 3,11 C3,11.5522847 2.55228475,12 2,12 Z"></path></svg></span>Technologies and Tools</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesMultipleSelect"><path d="M4,3 C4,2.447715 4.447715,2 5,2 L12,2 C12.5523,2 13,2.447716 13,3 C13,3.55228 12.5523,4 12,4 L5,4 C4.447715,4 4,3.55228 4,3 Z M4,7 C4,6.447715 4.447715,6 5,6 L12,6 C12.5523,6 13,6.447716 13,7 C13,7.55228 12.5523,8 12,8 L5,8 C4.447715,8 4,7.55228 4,7 Z M4,11 C4,10.447715 4.447715,10 5,10 L12,10 C12.5523,10 13,10.447716 13,11 C13,11.55228 12.5523,12 12,12 L5,12 C4.447715,12 4,11.55228 4,11 Z M2,4 C1.44771525,4 1,3.55228475 1,3 C1,2.44771525 1.44771525,2 2,2 C2.55228475,2 3,2.44771525 3,3 C3,3.55228475 2.55228475,4 2,4 Z M2,8 C1.44771525,8 1,7.55228475 1,7 C1,6.44771525 1.44771525,6 2,6 C2.55228475,6 3,6.44771525 3,7 C3,7.55228475 2.55228475,8 2,8 Z M2,12 C1.44771525,12 1,11.5522847 1,11 C1,10.4477153 1.44771525,10 2,10 C2.55228475,10 3,10.4477153 3,11 C3,11.5522847 2.55228475,12 2,12 Z"></path></svg></span>Responsibilities</th><th><span class="icon property-icon"><svg viewBox="0 0 14 14" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.4);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesDate"><path d="M10.8889,5.5 L3.11111,5.5 L3.11111,7.05556 L10.8889,7.05556 L10.8889,5.5 Z M12.4444,1.05556 L11.6667,1.05556 L11.6667,0 L10.1111,0 L10.1111,1.05556 L3.88889,1.05556 L3.88889,0 L2.33333,0 L2.33333,1.05556 L1.55556,1.05556 C0.692222,1.05556 0.00777777,1.75556 0.00777777,2.61111 L0,12.5 C0,13.3556 0.692222,14 1.55556,14 L12.4444,14 C13.3,14 14,13.3556 14,12.5 L14,2.61111 C14,1.75556 13.3,1.05556 12.4444,1.05556 Z M12.4444,12.5 L1.55556,12.5 L1.55556,3.94444 L12.4444,3.94444 L12.4444,12.5 Z M8.55556,8.61111 L3.11111,8.61111 L3.11111,10.1667 L8.55556,10.1667 L8.55556,8.61111 Z"></path></svg></span>Date</th></tr></thead><tbody><tr id="d36a3873-80ac-4880-a74c-5304f6f69c38"><td class="cell-title"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/Last%20projects%203ef0e6a885ec4d3fb71c1875fd0cfd6b/Politico%20is%20an%20American%20political%20journalism%20compa%20d36a387380ac4880a74c5304f6f69c38.html">&quot;Politico&quot; is an American political journalism company based in Arlington County, Virginia, that covers politics and policy in the United States and internationally. It distributes content through its website, television, printed newspapers, radio, and podcasts. Its coverage in Washington, D.C. includes the U.S. Congress, lobbying, the media, and the presidency.</a></td><td class="cell-fu_M"></td><td class="cell-=Ewo"><a href="https://www.politicopro.com/product" class="url-value">https://www.politicopro.com/product</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-green">Accessibility</span><span class="selected-value select-value-color-yellow">Browserstack</span><span class="selected-value select-value-color-purple">CSS</span><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-blue">HTML</span><span class="selected-value select-value-color-red">JS</span><span class="selected-value select-value-color-yellow">Jest</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-brown">Npm</span><span class="selected-value select-value-color-brown">Snapshot testing</span><span class="selected-value select-value-color-yellow">Storybook</span><span class="selected-value select-value-color-yellow">Unit testing</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span><span class="selected-value select-value-color-brown">Yarn</span><span class="selected-value select-value-color-purple">Zeplin</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-pink">Code review</span><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-yellow">Creating unit tests</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-yellow">Git flow</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@Aug 1, 2019</time></td></tr><tr id="a8afdc90-1b5e-497c-8654-dc8e9acc3341"><td class="cell-title"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/Last%20projects%203ef0e6a885ec4d3fb71c1875fd0cfd6b/Beyondtimecomics%20-%20project%20for%20the%20sale%20of%20comics%20%20a8afdc901b5e497c8654dc8e9acc3341.html">&quot;Beyondtimecomics&quot; - project for the sale of comics with a reader in SPA concept. </a></td><td class="cell-fu_M"></td><td class="cell-=Ewo"><a href="https://beyondtimecomics.com/" class="url-value">https://beyondtimecomics.com/</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-yellow">Jest</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span><span class="selected-value select-value-color-brown">Yarn</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-yellow">Creating unit tests</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-yellow">Git flow</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@Jul 1, 2018 → Dec 1, 2019</time></td></tr><tr id="a74da8d8-a2db-42a7-89fb-cd0d0331a25d"><td class="cell-title"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/Last%20projects%203ef0e6a885ec4d3fb71c1875fd0cfd6b/Verba%20-%20network%20of%20clinics%20a74da8d8a2db42a789fbcd0d0331a25d.html">&quot;Verba&quot; - network of clinics. </a></td><td class="cell-fu_M"></td><td class="cell-=Ewo"><a href="https://verba.by" class="url-value">https://verba.by</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-purple">CSS</span><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-blue">HTML</span><span class="selected-value select-value-color-red">JS</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-brown">Npm</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-yellow">Creating unit tests</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-yellow">Git flow</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@Jan 20, 2018 → Jun 20, 2019</time></td></tr><tr id="f7da74df-ff31-4845-9764-4a0a4d2be165"><td class="cell-title"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/Last%20projects%203ef0e6a885ec4d3fb71c1875fd0cfd6b/Untitled%20f7da74dfff31484597644a0a4d2be165.html">Untitled</a></td><td class="cell-fu_M"></td><td class="cell-=Ewo"></td><td class="cell-VU?I"></td><td class="cell-|PbV"></td><td class="cell-RiQs"></td></tr></tbody></table></div><p id="82ecf264-389a-475e-9c8b-96bab79341eb" class="block-color-teal"><a href="https://www.notion.so/My-experience-d3dc935af53e4d068dc552159fbf1fdd">Full presentation.</a></p><h2 id="7506de88-1eae-42d0-8893-f07d436d4924" class="">Briefly about my future</h2><hr id="1e03a51d-0c4b-4d2e-ab5b-5b08549ad61c"/><p id="d318eb1f-0bd9-440b-8712-91e0e0f38c6f" class="">Now I have started to study BE technologies. <code>Node.js</code> + <code>SQL</code> | <code>MongoDB</code> + <code>Testing</code>.</p><h2 id="51fb5ebb-f2c1-40fa-b284-2e5191f39b50" class="">I&#x27;m always open to new interesting projects</h2><hr id="c3f4ed4c-c208-4fe7-ad88-408dcfc639f7"/><div id="23f120dd-f836-4a94-bd42-76c34d2d198e" class="column-list"><div id="84c5e3b9-69f6-4c72-bf0b-bb27bee68647" style="width:50%" class="column"><p id="5946971c-0f9f-4a4c-8109-e80c6e22661b" class=""><strong>Email:</strong> workglebov@gmail.com</p><p id="e574c3d8-eb2c-4f96-a525-d1d44dba2806" class=""><strong>Phone:</strong> <a href="tel:+375293905354">+375(29)390-53-54</a></p><figure id="fb5acc2d-8063-4b7e-bd9a-578dd54579ec"><div class="source"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/Download_Anton_Glebov-CV.pdf">https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f59ac74-bf3f-4654-ba00-3681f502f5cc/Download_Anton_Glebov-CV.pdf</a></div></figure></div><div id="ac3b320c-82c9-4914-b2ed-aa2187bc2020" style="width:50%" class="column"><p id="6a78da85-6b91-4f32-b99c-f5c6984e95c3" class=""><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anton-glebov/">@anton-glebov</a></p><p id="6d9f69ba-9ef4-4bd4-8a6d-c8902ba38e69" class=""><strong>Telegram:</strong> <a href="https://t.me/workglebov">@workglebov</a></p><p id="762822df-591c-4be5-93d8-e8083e87bb53" class="">
-</p></div></div><p id="afe7905c-e77a-4c7b-a408-45aeae2aa6cf" class=""><mark class="highlight-gray"><a href="">Back to top</a></mark></p><p id="71ec3912-6bf9-4ea3-80e6-1a7c68abf341" class="">
+</style></head><body><article id="a7d55562-d548-45da-8229-dca170cbee6c" class="page sans"><header><img class="page-cover-image" src="https://images.unsplash.com/photo-1537432376769-00f5c2f4c8d2?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/329-3293400_are-you-the-best-fullstack-developer-full-stack-removebg-preview.png"/></div><h1 class="page-title">Anton Glebov. CV</h1><p class="page-description"></p></header><div class="page-body"><hr id="bd5139e8-3909-4759-81e5-5ace55b9ab2c"/><p id="eb4549f5-582a-415c-b9a8-a62e53a32cf0" class="">Menu<strong>:</strong></p><nav id="ebe74a11-72c2-4246-b1f5-fa60fdcdf8d5" class="block-color-gray table_of_contents"><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#95fbf547-9079-4de6-805f-694ef3712c2e">My life</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#7ded4f79-950e-4cc3-a4a6-7042d10c7681">My destiny</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#8a3c5f0f-929f-413e-8f50-ad5e7e0a20fc">Briefly about my experience</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#7506de88-1eae-42d0-8893-f07d436d4924">Briefly about my future</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#51fb5ebb-f2c1-40fa-b284-2e5191f39b50">I&#x27;m always open to new and interesting projects</a></div></nav><hr id="b6d55921-2d0d-4a6d-8b82-1363366d7d11"/><blockquote id="18e07cec-ae21-4e1d-b59e-0e9d16babbe2" class="block-color-gray">I put so much spirit into the work I&#x27;m doing, so I believe in success. I have a great desire to work and develop professionally. I take responsibility for tasks and deal with them effectively. I like to work in a team because I think that I can always learn from my project teammates.</blockquote><h2 id="95fbf547-9079-4de6-805f-694ef3712c2e" class="">My life</h2><hr id="8715a955-a19d-47d1-8853-11d647215720"/><p id="82269e83-d053-444c-8ccb-9631de0166ab" class="">My friends taught me to play the guitar when I was 11. Later I played the African djembe. Since then I like to play it whether alone or not. In my free time, I am fond of recording and DJing. Together with my wife, we often go running and cycling. We love to travel despite COVID :). And of course, I can&#x27;t but mention the time I spend on self-education.</p><div id="11304572-1dfb-42a9-8cfa-8371230ca77d" class="column-list"><div id="24c74782-aaca-4397-9802-a2b9f84685e8" style="width:33.333333333333336%" class="column"><figure id="268ec4ac-5b1a-4e56-a65c-3028fffe2b22" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/1_(1).jpeg"><img style="width:1280px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/1_(1).jpeg"/></a></figure><figure id="942b2780-c18f-4c7c-a973-29d1d15c863f" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/5_(1).jpeg"><img style="width:384px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/5_(1).jpeg"/></a></figure></div><div id="381118ab-0ec2-4429-882c-0c53a4f3c64c" style="width:33.333333333333336%" class="column"><figure id="8ccd9068-d308-460b-aedd-3f62b905990d" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/4_(1).jpeg"><img style="width:2000px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/4_(1).jpeg"/></a></figure><figure id="73f47b75-da6c-46d8-905a-9b9368da42b1" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/3_(1).jpeg"><img style="width:2560px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/3_(1).jpeg"/></a></figure></div><div id="ca82b0a2-43b1-4214-b17f-71ff9976c006" style="width:33.33333333333333%" class="column"><figure id="2528bf89-db64-4243-94eb-cc207ed18f48" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/2_(1).jpeg"><img style="width:1344px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/2_(1).jpeg"/></a></figure><figure id="ecab36ac-2979-4bce-afba-598a25349975" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/6_(1).jpeg"><img style="width:1280px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/6_(1).jpeg"/></a></figure><p id="09a8abdd-b1b6-4722-830b-e61e4d0e21b4" class="">
+</p></div></div><h2 id="7ded4f79-950e-4cc3-a4a6-7042d10c7681" class="">My destiny</h2><hr id="6b4d74d2-5bce-417d-a71b-cc083b626764"/><p id="a44bac9d-b8b3-4776-b469-505ded80a86d" class="">I used to work as a sound engineer. But one way or another, I came across programming, though I considered it too difficult to start WEB developing. I created my first simple landing pages in <code>WordPress</code> and native <code>HTML</code> + <code>CSS</code>. But then I came up with the idea of making the websites more interactive. And started learning <code>JS</code> with <code>Jquery</code>. It seemed to be just another way of self-development until I realized that I was really into programming. So, my hobby has become my new profession. And I really hope to become a good full-stack developer.</p><h2 id="8a3c5f0f-929f-413e-8f50-ad5e7e0a20fc" class="">Briefly about my experience</h2><hr id="eca7b563-729b-435d-b3c8-adb771df27fc"/><p id="851a18d1-a23a-4c8f-91db-34d03a902a97" class="">I started out as a freelancer for my friends. Worked with <code>HTML</code> + <code>CSS</code> + <code>JQyery</code> + <code>JS</code>. I joined the <code>Noer</code> in 2017. And I continued projects by adding <code>VUE</code> + <code>Webpack</code> + <code>Figma</code> + <code>TargetProcess</code> + <code>Git</code> to my stack. The <code>Politico</code> project has been of great benefit. Here I dive deeper into using the technologies I already knew. In addition, I realized the need and began to use <code>Jira</code> + <code>Jest</code> + <code>Accessibility</code> + <code>BrowserStack</code> + <code>Storybook</code>. At  <code>Politico</code>, I had 6 sub-projects with different teams. And I really liked the practice of <code>Code review</code> + <code>Scrum</code> + <code>English practice</code>. </p><div id="3ef0e6a8-85ec-4d3f-b71c-1875fd0cfd6b" class="collection-content"><h4 class="collection-title">Last projects:</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesTitle"><path d="M0.637695 13.1914C1.0957 13.1914 1.32812 13 1.47852 12.5215L2.24414 10.3887H6.14746L6.90625 12.5215C7.05664 13 7.2959 13.1914 7.74707 13.1914C8.22559 13.1914 8.5332 12.9043 8.5332 12.4531C8.5332 12.2891 8.50586 12.1523 8.44434 11.9678L5.41602 3.79199C5.2041 3.21777 4.82129 2.9375 4.19922 2.9375C3.60449 2.9375 3.21484 3.21777 3.0166 3.78516L-0.0322266 12.002C-0.09375 12.1797 -0.121094 12.3232 -0.121094 12.4668C-0.121094 12.918 0.166016 13.1914 0.637695 13.1914ZM2.63379 9.12402L4.17871 4.68066H4.21973L5.76465 9.12402H2.63379ZM12.2793 13.2324C13.3115 13.2324 14.2891 12.6787 14.7129 11.8037H14.7402V12.5762C14.7471 12.9863 15.0273 13.2393 15.4238 13.2393C15.834 13.2393 16.1143 12.9795 16.1143 12.5215V8.00977C16.1143 6.49902 14.9658 5.52148 13.1543 5.52148C11.7666 5.52148 10.6592 6.08887 10.2695 6.99121C10.1943 7.15527 10.1533 7.3125 10.1533 7.46289C10.1533 7.81152 10.4062 8.04395 10.7686 8.04395C11.0215 8.04395 11.2129 7.94824 11.3496 7.73633C11.7529 6.99121 12.2861 6.65625 13.1064 6.65625C14.0977 6.65625 14.6992 7.20996 14.6992 8.1123V8.67285L12.5664 8.7959C10.7686 8.8916 9.77734 9.69824 9.77734 11.0107C9.77734 12.3369 10.8096 13.2324 12.2793 13.2324ZM12.6621 12.1387C11.8008 12.1387 11.2129 11.667 11.2129 10.9561C11.2129 10.2725 11.7598 9.82129 12.7578 9.75977L14.6992 9.62988V10.3203C14.6992 11.3457 13.7969 12.1387 12.6621 12.1387Z"></path></svg></span>Project</th><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesUrl"><path d="M7.69922 10.8945L8.73828 9.84863C7.91797 9.77344 7.34375 9.51367 6.91992 9.08984C5.76465 7.93457 5.76465 6.29395 6.91309 5.14551L9.18262 2.87598C10.3379 1.7207 11.9717 1.7207 13.127 2.87598C14.2891 4.04492 14.2822 5.67188 13.1338 6.82031L11.958 7.99609C12.1768 8.49512 12.2451 9.10352 12.1289 9.62988L14.0908 7.6748C15.7725 6 15.7793 3.62109 14.084 1.92578C12.3887 0.223633 10.0098 0.237305 8.33496 1.91211L5.95605 4.29785C4.28125 5.97266 4.26758 8.35156 5.96289 10.0469C6.36621 10.4434 6.90625 10.7441 7.69922 10.8945ZM8.30078 5.13184L7.26855 6.17773C8.08203 6.25293 8.66309 6.51953 9.08008 6.93652C10.2422 8.09863 10.2422 9.73242 9.08691 10.8809L6.81738 13.1504C5.66211 14.3057 4.03516 14.3057 2.87305 13.1504C1.71094 11.9883 1.71777 10.3545 2.87305 9.20605L4.04199 8.03027C3.83008 7.53125 3.75488 6.92969 3.87109 6.39648L1.91602 8.35156C0.234375 10.0264 0.227539 12.4121 1.92285 14.1074C3.61816 15.8027 5.99707 15.7891 7.67188 14.1143L10.0439 11.7354C11.7256 10.0537 11.7324 7.6748 10.0371 5.98633C9.64062 5.58301 9.10059 5.28223 8.30078 5.13184Z"></path></svg></span>Web site</th><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesMultipleSelect"><path d="M1.91602 4.83789C2.44238 4.83789 2.87305 4.40723 2.87305 3.87402C2.87305 3.34766 2.44238 2.91699 1.91602 2.91699C1.38281 2.91699 0.952148 3.34766 0.952148 3.87402C0.952148 4.40723 1.38281 4.83789 1.91602 4.83789ZM5.1084 4.52344H14.3984C14.7607 4.52344 15.0479 4.23633 15.0479 3.87402C15.0479 3.51172 14.7607 3.22461 14.3984 3.22461H5.1084C4.74609 3.22461 4.45898 3.51172 4.45898 3.87402C4.45898 4.23633 4.74609 4.52344 5.1084 4.52344ZM1.91602 9.03516C2.44238 9.03516 2.87305 8.60449 2.87305 8.07129C2.87305 7.54492 2.44238 7.11426 1.91602 7.11426C1.38281 7.11426 0.952148 7.54492 0.952148 8.07129C0.952148 8.60449 1.38281 9.03516 1.91602 9.03516ZM5.1084 8.7207H14.3984C14.7607 8.7207 15.0479 8.43359 15.0479 8.07129C15.0479 7.70898 14.7607 7.42188 14.3984 7.42188H5.1084C4.74609 7.42188 4.45898 7.70898 4.45898 8.07129C4.45898 8.43359 4.74609 8.7207 5.1084 8.7207ZM1.91602 13.2324C2.44238 13.2324 2.87305 12.8018 2.87305 12.2686C2.87305 11.7422 2.44238 11.3115 1.91602 11.3115C1.38281 11.3115 0.952148 11.7422 0.952148 12.2686C0.952148 12.8018 1.38281 13.2324 1.91602 13.2324ZM5.1084 12.918H14.3984C14.7607 12.918 15.0479 12.6309 15.0479 12.2686C15.0479 11.9062 14.7607 11.6191 14.3984 11.6191H5.1084C4.74609 11.6191 4.45898 11.9062 4.45898 12.2686C4.45898 12.6309 4.74609 12.918 5.1084 12.918Z"></path></svg></span>Skills &amp; Technologies</th><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesMultipleSelect"><path d="M1.91602 4.83789C2.44238 4.83789 2.87305 4.40723 2.87305 3.87402C2.87305 3.34766 2.44238 2.91699 1.91602 2.91699C1.38281 2.91699 0.952148 3.34766 0.952148 3.87402C0.952148 4.40723 1.38281 4.83789 1.91602 4.83789ZM5.1084 4.52344H14.3984C14.7607 4.52344 15.0479 4.23633 15.0479 3.87402C15.0479 3.51172 14.7607 3.22461 14.3984 3.22461H5.1084C4.74609 3.22461 4.45898 3.51172 4.45898 3.87402C4.45898 4.23633 4.74609 4.52344 5.1084 4.52344ZM1.91602 9.03516C2.44238 9.03516 2.87305 8.60449 2.87305 8.07129C2.87305 7.54492 2.44238 7.11426 1.91602 7.11426C1.38281 7.11426 0.952148 7.54492 0.952148 8.07129C0.952148 8.60449 1.38281 9.03516 1.91602 9.03516ZM5.1084 8.7207H14.3984C14.7607 8.7207 15.0479 8.43359 15.0479 8.07129C15.0479 7.70898 14.7607 7.42188 14.3984 7.42188H5.1084C4.74609 7.42188 4.45898 7.70898 4.45898 8.07129C4.45898 8.43359 4.74609 8.7207 5.1084 8.7207ZM1.91602 13.2324C2.44238 13.2324 2.87305 12.8018 2.87305 12.2686C2.87305 11.7422 2.44238 11.3115 1.91602 11.3115C1.38281 11.3115 0.952148 11.7422 0.952148 12.2686C0.952148 12.8018 1.38281 13.2324 1.91602 13.2324ZM5.1084 12.918H14.3984C14.7607 12.918 15.0479 12.6309 15.0479 12.2686C15.0479 11.9062 14.7607 11.6191 14.3984 11.6191H5.1084C4.74609 11.6191 4.45898 11.9062 4.45898 12.2686C4.45898 12.6309 4.74609 12.918 5.1084 12.918Z"></path></svg></span>Responsibilities</th><th><span class="icon property-icon"><svg role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0" class="typesDate"><path d="M3.29688 14.4561H12.7031C14.1797 14.4561 14.9453 13.6904 14.9453 12.2344V3.91504C14.9453 2.45215 14.1797 1.69336 12.7031 1.69336H3.29688C1.82031 1.69336 1.05469 2.45215 1.05469 3.91504V12.2344C1.05469 13.6973 1.82031 14.4561 3.29688 14.4561ZM3.27637 13.1162C2.70898 13.1162 2.39453 12.8154 2.39453 12.2207V5.9043C2.39453 5.30273 2.70898 5.00879 3.27637 5.00879H12.71C13.2842 5.00879 13.6055 5.30273 13.6055 5.9043V12.2207C13.6055 12.8154 13.2842 13.1162 12.71 13.1162H3.27637ZM6.68066 7.38086H7.08398C7.33008 7.38086 7.41211 7.30566 7.41211 7.05957V6.66309C7.41211 6.41699 7.33008 6.3418 7.08398 6.3418H6.68066C6.44141 6.3418 6.35938 6.41699 6.35938 6.66309V7.05957C6.35938 7.30566 6.44141 7.38086 6.68066 7.38086ZM8.92285 7.38086H9.31934C9.56543 7.38086 9.64746 7.30566 9.64746 7.05957V6.66309C9.64746 6.41699 9.56543 6.3418 9.31934 6.3418H8.92285C8.67676 6.3418 8.59473 6.41699 8.59473 6.66309V7.05957C8.59473 7.30566 8.67676 7.38086 8.92285 7.38086ZM11.1582 7.38086H11.5547C11.8008 7.38086 11.8828 7.30566 11.8828 7.05957V6.66309C11.8828 6.41699 11.8008 6.3418 11.5547 6.3418H11.1582C10.9121 6.3418 10.8301 6.41699 10.8301 6.66309V7.05957C10.8301 7.30566 10.9121 7.38086 11.1582 7.38086ZM4.44531 9.58203H4.84863C5.09473 9.58203 5.17676 9.50684 5.17676 9.26074V8.86426C5.17676 8.61816 5.09473 8.54297 4.84863 8.54297H4.44531C4.20605 8.54297 4.12402 8.61816 4.12402 8.86426V9.26074C4.12402 9.50684 4.20605 9.58203 4.44531 9.58203ZM6.68066 9.58203H7.08398C7.33008 9.58203 7.41211 9.50684 7.41211 9.26074V8.86426C7.41211 8.61816 7.33008 8.54297 7.08398 8.54297H6.68066C6.44141 8.54297 6.35938 8.61816 6.35938 8.86426V9.26074C6.35938 9.50684 6.44141 9.58203 6.68066 9.58203ZM8.92285 9.58203H9.31934C9.56543 9.58203 9.64746 9.50684 9.64746 9.26074V8.86426C9.64746 8.61816 9.56543 8.54297 9.31934 8.54297H8.92285C8.67676 8.54297 8.59473 8.61816 8.59473 8.86426V9.26074C8.59473 9.50684 8.67676 9.58203 8.92285 9.58203ZM11.1582 9.58203H11.5547C11.8008 9.58203 11.8828 9.50684 11.8828 9.26074V8.86426C11.8828 8.61816 11.8008 8.54297 11.5547 8.54297H11.1582C10.9121 8.54297 10.8301 8.61816 10.8301 8.86426V9.26074C10.8301 9.50684 10.9121 9.58203 11.1582 9.58203ZM4.44531 11.7832H4.84863C5.09473 11.7832 5.17676 11.708 5.17676 11.4619V11.0654C5.17676 10.8193 5.09473 10.7441 4.84863 10.7441H4.44531C4.20605 10.7441 4.12402 10.8193 4.12402 11.0654V11.4619C4.12402 11.708 4.20605 11.7832 4.44531 11.7832ZM6.68066 11.7832H7.08398C7.33008 11.7832 7.41211 11.708 7.41211 11.4619V11.0654C7.41211 10.8193 7.33008 10.7441 7.08398 10.7441H6.68066C6.44141 10.7441 6.35938 10.8193 6.35938 11.0654V11.4619C6.35938 11.708 6.44141 11.7832 6.68066 11.7832ZM8.92285 11.7832H9.31934C9.56543 11.7832 9.64746 11.708 9.64746 11.4619V11.0654C9.64746 10.8193 9.56543 10.7441 9.31934 10.7441H8.92285C8.67676 10.7441 8.59473 10.8193 8.59473 11.0654V11.4619C8.59473 11.708 8.67676 11.7832 8.92285 11.7832Z"></path></svg></span>Date</th></tr></thead><tbody><tr id="41555cb8-8747-434f-9e30-80a257baed37"><td class="cell-title"><a href="https://www.notion.so/Insider-one-platform-for-individualized-cross-channel-experiences-enables-enterprise-marketers-to--41555cb88747434f9e3080a257baed37?pvs=21">“Insider”—one platform for individualized, cross-channel experiences—enables enterprise marketers to connect customer data across channels and systems, predict their future behavior with an AI intent engine and individualize customer experiences. Marketers use Insider’s platform to deliver experiences across channels like Web, App, Web Push, Email, SMS, and Messaging Apps (WhatsApp, Facebook Messenger, RCS).</a></td><td class="cell-=Ewo"><a href="https://useinsider.com/" class="url-value">https://useinsider.com/</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-orange">AWS</span><span class="selected-value select-value-color-purple">CSS</span><span class="selected-value select-value-color-orange">Docker</span><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-blue">HTML</span><span class="selected-value select-value-color-red">JS</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-yellow">Storybook</span><span class="selected-value select-value-color-orange">TypeScript</span><span class="selected-value select-value-color-yellow">Unit testing</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-pink">Code review</span><span class="selected-value select-value-color-blue">Communication</span><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-purple">Cross check</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-gray">Research</span><span class="selected-value select-value-color-default">Task assessment</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@December 27, 2021</time></td></tr><tr id="d36a3873-80ac-4880-a74c-5304f6f69c38"><td class="cell-title"><a href="https://www.notion.so/Politico-is-an-American-political-journalism-company-based-in-Arlington-County-Virginia-that-cove-d36a387380ac4880a74c5304f6f69c38?pvs=21">&quot;Politico&quot; is an American political journalism company based in Arlington County, Virginia, that covers politics and policy in the United States and internationally. It distributes content through its website, television, printed newspapers, radio, and podcasts. Its coverage in Washington, D.C. includes the U.S. Congress, lobbying, the media, and the presidency.</a></td><td class="cell-=Ewo"><a href="https://www.politicopro.com/product" class="url-value">https://www.politicopro.com/product</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-green">Accessibility</span><span class="selected-value select-value-color-yellow">Browserstack</span><span class="selected-value select-value-color-purple">CSS</span><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-blue">HTML</span><span class="selected-value select-value-color-red">JS</span><span class="selected-value select-value-color-yellow">Jest</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-brown">Npm</span><span class="selected-value select-value-color-brown">Snapshot testing</span><span class="selected-value select-value-color-yellow">Storybook</span><span class="selected-value select-value-color-yellow">Unit testing</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span><span class="selected-value select-value-color-brown">Yarn</span><span class="selected-value select-value-color-purple">Zeplin</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-pink">Code review</span><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-yellow">Creating unit tests</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-yellow">Git flow</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@August 1, 2019 → December 24, 2021</time></td></tr><tr id="f7da74df-ff31-4845-9764-4a0a4d2be165"><td class="cell-title"><a href="https://www.notion.so/Study-Project-The-Rolling-Scopes-School-f7da74dfff31484597644a0a4d2be165?pvs=21">Study Project (The Rolling Scopes School)</a></td><td class="cell-=Ewo"><a href="https://github.com/glebovanton/nodejs-course https://github.com/glebovanton/exclusivebar-be https://github.com/glebovanton/shop-vue-vuex-cloudfront" class="url-value">https://github.com/glebovanton/nodejs-course https://github.com/glebovanton/exclusivebar-be https://github.com/glebovanton/shop-vue-vuex-cloudfront</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-orange">AWS</span><span class="selected-value select-value-color-orange">Docker</span><span class="selected-value select-value-color-gray">Express.js</span><span class="selected-value select-value-color-yellow">Jest</span><span class="selected-value select-value-color-pink">Node.js</span><span class="selected-value select-value-color-gray">Nuxt.js</span><span class="selected-value select-value-color-purple">Postman</span><span class="selected-value select-value-color-yellow">Swagger</span><span class="selected-value select-value-color-red">Vue</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-brown">Create API with Node =&gt; Express =&gt; Nuxt</span><span class="selected-value select-value-color-purple">Cross check</span></td><td class="cell-RiQs"><time>@August 20, 2021</time></td></tr><tr id="a8afdc90-1b5e-497c-8654-dc8e9acc3341"><td class="cell-title"><a href="https://www.notion.so/Beyondtimecomics-project-for-the-sale-of-comics-with-a-reader-in-SPA-concept-a8afdc901b5e497c8654dc8e9acc3341?pvs=21">&quot;Beyondtimecomics&quot; - project for the sale of comics with a reader in SPA concept. </a></td><td class="cell-=Ewo"><a href="https://beyondtimecomics.com/" class="url-value">https://beyondtimecomics.com/</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-yellow">Jest</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span><span class="selected-value select-value-color-brown">Yarn</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-yellow">Creating unit tests</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-yellow">Git flow</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@July 1, 2018 → December 1, 2019</time></td></tr><tr id="a74da8d8-a2db-42a7-89fb-cd0d0331a25d"><td class="cell-title"><a href="https://www.notion.so/Verba-network-of-clinics-a74da8d8a2db42a789fbcd0d0331a25d?pvs=21">&quot;Verba&quot; - network of clinics. </a></td><td class="cell-=Ewo"><a href="https://verba.by" class="url-value">https://verba.by</a></td><td class="cell-VU?I"><span class="selected-value select-value-color-purple">CSS</span><span class="selected-value select-value-color-purple">Figma</span><span class="selected-value select-value-color-yellow">Git</span><span class="selected-value select-value-color-blue">HTML</span><span class="selected-value select-value-color-red">JS</span><span class="selected-value select-value-color-yellow">Jira</span><span class="selected-value select-value-color-brown">Npm</span><span class="selected-value select-value-color-red">Vue</span><span class="selected-value select-value-color-red">Vuex</span></td><td class="cell-|PbV"><span class="selected-value select-value-color-red">Creating Vue components</span><span class="selected-value select-value-color-yellow">Creating unit tests</span><span class="selected-value select-value-color-green">Documentation support</span><span class="selected-value select-value-color-yellow">Git flow</span><span class="selected-value select-value-color-yellow">Time management</span></td><td class="cell-RiQs"><time>@January 20, 2018 → June 20, 2019</time></td></tr></tbody></table><br/><br/></div><p id="82ecf264-389a-475e-9c8b-96bab79341eb" class="block-color-teal"><a href="https://www.notion.so/My-experience-d3dc935af53e4d068dc552159fbf1fdd?pvs=21">Full presentation.</a></p><h2 id="7506de88-1eae-42d0-8893-f07d436d4924" class="">Briefly about my future</h2><hr id="1e03a51d-0c4b-4d2e-ab5b-5b08549ad61c"/><p id="d318eb1f-0bd9-440b-8712-91e0e0f38c6f" class="">Now I have started to study BE technologies. <code>Node.js</code> + <code>Nest.js</code> | <code>WebGl 3D</code>.</p><h2 id="51fb5ebb-f2c1-40fa-b284-2e5191f39b50" class="">I&#x27;m always open to new and interesting projects</h2><hr id="c3f4ed4c-c208-4fe7-ad88-408dcfc639f7"/><div id="23f120dd-f836-4a94-bd42-76c34d2d198e" class="column-list"><div id="84c5e3b9-69f6-4c72-bf0b-bb27bee68647" style="width:50%" class="column"><p id="5946971c-0f9f-4a4c-8109-e80c6e22661b" class=""><strong>Email:</strong> workglebov@gmail.com</p><p id="e574c3d8-eb2c-4f96-a525-d1d44dba2806" class=""><strong>Phone:</strong> <a href="tel:+375293905354">+375(29)390-53-54</a></p><figure id="b0e48625-a65e-432f-9ba8-147f2de1268b"><div class="source"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/Download_Anton_Glebov_CV.pdf">Download Anton Glebov CV.pdf</a></div></figure></div><div id="ac3b320c-82c9-4914-b2ed-aa2187bc2020" style="width:50%" class="column"><p id="6a78da85-6b91-4f32-b99c-f5c6984e95c3" class=""><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anton-glebov/">@anton-glebov</a></p><p id="6d9f69ba-9ef4-4bd4-8a6d-c8902ba38e69" class=""><strong>Telegram:</strong> <a href="https://t.me/workglebov">@workglebov</a></p><p id="762822df-591c-4be5-93d8-e8083e87bb53" class="">
+</p></div></div><p id="afe7905c-e77a-4c7b-a408-45aeae2aa6cf" class=""><mark class="highlight-gray"><a href="https://www.notion.so/Anton-Glebov-CV-a7d55562d54845da8229dca170cbee6c?pvs=21">Back to top</a></mark></p><p id="71ec3912-6bf9-4ea3-80e6-1a7c68abf341" class="">
 </p><div id="1020cb28-0c09-40a0-97f0-bfbb803b4320" class="column-list"><div id="8b5c632f-3aad-4c99-a42b-c549bbb61f21" style="width:75%" class="column"><p id="1b2d11c2-4868-4135-a4dd-c349a362a450" class="block-color-gray"> 💡 *If you want me to add or correct info about myself, please feel free to log in and comment in the appropriate line. →</p><p id="24aa17e1-b467-4e77-a93e-d7755fbca823" class="">
-</p></div><div id="c9a60af7-1812-40d9-9077-2895266ecf7a" style="width:24.999999999999996%" class="column"><figure id="611958c6-461c-4ccc-a1e3-469e0d6cc25d" class="image"><a href="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/8_(1).png"><img style="width:824px" src="Anton%20Glebov%20CV%20268ec4ac5b1a4e56a65c3028fffe2b22/8_(1).png"/></a></figure></div></div><p id="e476ac59-cb04-4476-ac9a-91ee2eeda66d" class="">
-</p></div></article></body></html>
+</p></div><div id="c9a60af7-1812-40d9-9077-2895266ecf7a" style="width:24.999999999999996%" class="column"><figure id="611958c6-461c-4ccc-a1e3-469e0d6cc25d" class="image"><a href="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/8_(1).png"><img style="width:824px" src="Anton%20Glebov%20CV%20a7d55562d54845da8229dca170cbee6c/8_(1).png"/></a></figure></div></div><p id="e476ac59-cb04-4476-ac9a-91ee2eeda66d" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
