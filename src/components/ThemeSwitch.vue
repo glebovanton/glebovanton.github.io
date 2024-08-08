@@ -1,55 +1,19 @@
 <script setup lang="ts">
 import { onBeforeMount } from "vue";
+import { useThemeStore } from "@/stores/theme"
 
-enum Theme {
-  Light = "light",
-  Dark = "dark",
-}
 
-const storageThemeKey = "theme";
-let appTheme = Theme.Dark;
-
-function setTheme(theme: Theme) {
-  appTheme = theme;
-}
-
-function toggleTheme() {
-  console.log("toggleTheme");
-  if (appTheme === Theme.Light) {
-    setTheme(Theme.Dark);
-    window.localStorage.setItem(storageThemeKey, Theme.Dark);
-    document.documentElement.classList.add(Theme.Dark);
-  } else {
-    setTheme(Theme.Light);
-    window.localStorage.setItem(storageThemeKey, Theme.Light);
-    document.documentElement.classList.remove(Theme.Dark);
-  }
-}
-
-function initTheme() {
-  const localTheme = window.localStorage.getItem(storageThemeKey) as Theme | null;
-
-  if (localTheme) {
-    setTheme(localTheme);
-
-    if (localTheme === Theme.Dark) {
-      document.documentElement.classList.add(Theme.Dark);
-    }
-  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    setTheme(Theme.Dark);
-    document.documentElement.classList.add(Theme.Dark);
-  }
-}
+const themeStore = useThemeStore()
 
 onBeforeMount(() => {
-  initTheme();
+  themeStore.initTheme();
 });
 </script>
 
 <template>
   <button
     class="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950"
-    @click="toggleTheme"
+    @click="themeStore.toggleTheme"
   >
     <svg
       stroke="currentColor"
