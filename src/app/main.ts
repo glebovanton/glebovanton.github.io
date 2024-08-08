@@ -15,7 +15,7 @@ app.use(pinia)
 if (import.meta.env.MODE !== "development") {
     app.use(VueGtag,
         {
-            appName: "",
+            appName: "glebovanton.github.io",
             pageTrackerScreenviewEnabled: true,
             config: {
                 id: "G-8STX2NJWYH"
