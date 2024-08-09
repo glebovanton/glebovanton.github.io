@@ -16,26 +16,15 @@ export const useThemeStore = defineStore('theme', {
                 return;
             }
 
-            if (
-                !localTheme &&
-                window.matchMedia("(prefers-color-scheme: dark)").matches
-            ) {
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
                 this.setTheme(Theme.Dark);
             }
         },
         setTheme(theme: Theme) {
             this.appTheme = theme;
-
-            window.localStorage.setItem(storageThemeKey, theme);
-
-            document.documentElement.classList[theme === Theme.Dark ? "add" : "remove"](Theme.Dark);
         },
         toggleTheme() {
-            if (this.appTheme === Theme.Light) {
-                this.setTheme(Theme.Dark);
-            } else {
-                this.setTheme(Theme.Light);
-            }
+            this.setTheme( this.appTheme === Theme.Light ? Theme.Dark : Theme.Light);
         },
     },
 })

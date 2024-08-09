@@ -1,13 +1,24 @@
 <script setup lang="ts">
-import { onBeforeMount } from "vue";
+import { computed, onBeforeMount, watch } from "vue";
 import { useThemeStore } from "@/stores/theme"
+import { storageThemeKey, Theme} from "@/types/theme";
 
 
-const themeStore = useThemeStore()
+const themeStore = useThemeStore();
+const appTheme = computed(() => {
+  return themeStore.appTheme;
+});
 
 onBeforeMount(() => {
   themeStore.initTheme();
 });
+
+watch(appTheme, theme => {
+  if (Object.values(Theme).includes(theme)) {
+    window.localStorage.setItem(storageThemeKey, theme);
+    document.documentElement.classList[theme === Theme.Dark ? "add" : "remove"](Theme.Dark);
+  }
+})
 </script>
 
 <template>
