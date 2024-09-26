@@ -40,9 +40,9 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VUE_APP_C_SERVICE: ${{ secrets.VUE_APP_C_SERVICE }}
-          VUE_APP_C_TEMPLATE: ${{ secrets.VUE_APP_C_TEMPLATE }}
-          VUE_APP_C_P_KEY: ${{ secrets.VUE_APP_C_P_KEY }}
+          VITE_C_SERVICE: ${{ secrets.VITE_C_SERVICE }}
+          VITE_C_TEMPLATE: ${{ secrets.VITE_C_TEMPLATE }}
+          VITE_C_P_KEY: ${{ secrets.VITE_C_P_KEY }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

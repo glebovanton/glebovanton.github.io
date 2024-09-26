@@ -10,15 +10,17 @@ const form = reactive({
   message: "",
 });
 
+const envPrefix = typeof process !== 'undefined'? process.env : import.meta.env;
+
 function sendEmail() {
   const { contacts, message } = form;
   emailjs
     .send(
-        process.env.VUE_APP_C_SERVICE ?? '',
-        process.env.VUE_APP_C_TEMPLATE ?? '',
+        envPrefix.VITE_C_SERVICE ?? '',
+        envPrefix.VITE_C_TEMPLATE ?? '',
       { contacts, message },
       {
-        publicKey: process.env.VUE_APP_C_P_KEY,
+        publicKey: envPrefix.VITE_C_P_KEY,
       },
     )
     .then(
@@ -65,7 +67,7 @@ function sendEmail() {
         class="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         name="message"
         placeholder="Your message"
-        required=""
+        required
         maxlength="5000"
       ></textarea
       ><button
