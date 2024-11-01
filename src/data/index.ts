@@ -51,7 +51,7 @@ export const experiencesData = [
     location: "Lithuania",
     description:
       "2021-2022 - The company has expanded its workforce and opened offices worldwide (28 countries with more than 700 employees from 41 different nationalities). Our goal was to improve onsite conversions with predictions." +
-      "<br />• Performance and page loading time improvement: Page loading delays were reduced from 30 seconds to 3 seconds (in some cases)." +
+      "<br />• Performance and page loading time improvement: Improved page load times by up to 90%, reducing delays from 30 seconds to under 3 seconds using advanced caching and optimization." +
       "<br />• Error tracking and debugging: We prioritized SLA tasks for app error tracking and debugging using Sentry." +
       "<br />• Design consistency: Ensured consistency across multi-product applications." +
       "<br />• Code refactoring: Refactored old components and developed a new design system across all services, reducing useless code." +
@@ -179,24 +179,30 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "HTML5",
+  "SCSS",
+  "Tailwind",
+  "JavaScript (ES6+)",
   "TypeScript",
   "Vue 3",
   "Next.js",
+  "Nuxt.js",
+  "Vuex",
+  "Redux",
+  "Webpack",
+  "Vite",
+  "Storybook",
+  "Jest",
+  "Vitest",
+  "Browserstack",
   "Node.js",
-  "Git",
-  "Tailwind",
+  "Express",
+  "AWS",
+  "Docker",
   "Prisma",
   "MongoDB",
-  "Vuex",
   "GraphQL",
-  "AWS",
-  "Express",
   "PostgreSQL",
-  "Docker",
-  "Storybook",
   "Git",
 ] as const;
 
