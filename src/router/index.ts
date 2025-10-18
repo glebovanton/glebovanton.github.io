@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import("../views/AboutView.vue"),
     },
   ],
-  scrollBehavior(to) {
+  scrollBehavior (to) {
     if (to.hash) {
       return { el: to.hash };
     }

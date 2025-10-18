@@ -1,16 +1,16 @@
-import '../assets/main.css'
+import '../assets/main.css';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import VueGtag from "vue-gtag"
-import App from '../App.vue'
-import router from '../router'
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import VueGtag from "vue-gtag";
+import App from '../App.vue';
+import router from '../router';
 
-const pinia = createPinia()
-const app = createApp(App)
+const pinia = createPinia();
+const app = createApp(App);
 
-app.use(router)
-app.use(pinia)
+app.use(router);
+app.use(pinia);
 
 if (import.meta.env.MODE !== "development") {
     app.use(VueGtag,
@@ -18,12 +18,12 @@ if (import.meta.env.MODE !== "development") {
             appName: "glebovanton.github.io",
             pageTrackerScreenviewEnabled: true,
             config: {
-                id: "G-8STX2NJWYH"
+                id: "G-8STX2NJWYH",
             },
         },
         router
-    )
+    );
 }
 
-app.mount('#app')
+app.mount('#app');
 
