@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
-import { linksData } from "@/data/index.ts";
+import { linksData } from "@/data";
 
 function isActive (linkHash: string): boolean {
   const route = useRoute();

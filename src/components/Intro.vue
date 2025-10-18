@@ -46,12 +46,11 @@ function downloadCv () {
             style="opacity: 1; transform: none"
         >
             <span class="font-bold">Hello, I'm Anton.</span> I'm a
-            <span class="font-bold">FE developer</span> with
+            <span class="font-bold">software developer</span> with
             <span class="font-bold">{{ experienceYears }} years</span> of experience. I enjoy building
             <span class="italic">sites &amp; apps</span>. Expert in
-            <span class="underline">Vue.js (with Node.js backend)</span>, dedicated to creating seamless, scalable
-            front-end experiences, with additional proficiency in <span class="underline">React</span> and
-            <span class="underline">Angular</span> for cross-framework versatility.
+            <span class="underline">React &amp; Vue (with Node.js backend</span>), dedicated to creating seamless, scalable
+            front-end experiences, with additional proficiency in <span class="underline">Angular</span> for cross-framework versatility.
         </h1>
         <div
             class="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
