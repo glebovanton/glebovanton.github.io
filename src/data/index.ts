@@ -1,7 +1,9 @@
 import IconHat from "@/components/icons/IconHat.vue";
 import IconSuitcase from "@/components/icons/IconSuitcase.vue";
 import IconVue from "@/components/icons/IconVue.vue";
+import IconReact from "@/components/icons/IconReact.vue";
 import insiderImage from "@/assets/images/insider.jpg";
+import gamingImage from "@/assets/images/gaming.jpg";
 import politicoImage from "@/assets/images/politico.jpg";
 import comicsImage from "@/assets/images/comics.jpg";
 import awsImage from "@/assets/images/aws.jpg";
@@ -47,6 +49,25 @@ export const linksData = [
 
 export const experiencesData = [
   {
+    title: "Senior Software Developer",
+    location: "Poland",
+    description:
+        "2023–Present – I contribute to the development of large-scale web platforms in the iGaming and entertainment technology space, focusing on performance, maintainability, and accessibility." +
+        "<br />• Led the migration of core applications to Next.js, improving build speed and SEO efficiency." +
+        "<br />• Implemented advanced caching and code-splitting strategies that reduced initial load times by over 60%." +
+        "<br />• Designed and developed reusable UI libraries, ensuring design consistency across multiple projects." +
+        "<br />• Collaborated with backend teams to optimize API interactions and reduce latency." +
+        "<br />• Introduced TypeScript best practices and testing standards for more predictable, stable releases." +
+        "<br />• Mentored junior engineers and participated in code reviews to maintain high development standards." +
+        "<br />• Improved real-time updates and dynamic data rendering using React Server Components." +
+        "<br />• Participated in accessibility and localization initiatives to expand reach for global audiences." +
+        "<br />• Organized and led agile processes — including grooming, sprint planning, and retrospective sessions — using GitLab as the main task management tool (similar to Jira)." +
+        "<br />• Proactively supported project coordination and delivery planning alongside the PM, helping to maintain clear priorities and consistent sprint outcomes." +
+        "<br />• Developed and launched a new gaming platform integrated with the Telegram App — introducing innovative gameplay experiences within the messenger ecosystem.",
+    icon: IconReact,
+    date: "2024 - present",
+  },
+  {
     title: "Front-End Developer in Insider",
     location: "Lithuania",
     description:
@@ -69,7 +90,7 @@ export const experiencesData = [
       "<br />• Localization feature: Add localization features in email services across all steps of campaign creation, allowing customers to create campaigns in multiple languages." +
       "<br />• Email template library: Create a new email template library to help customers store prepared templates from previous campaigns, saving time on creating new campaigns from scratch.",
     icon: IconVue,
-    date: "2021 - present",
+    date: "2021 - 2024",
   },
   {
     title: "Front-End Developer in Politico",
@@ -110,6 +131,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    name: "Global Gaming & Entertainment Company",
+    description:
+        "A global product company in the gaming and entertainment industry, developing interactive digital experiences for users across multiple regions. The company focuses on innovation, performance, and high-quality design in every product it builds. Our team creates platforms that reach millions of users daily, combining technology, creativity, and reliability.",
+      skills: [
+      "TypeScript",
+      "Next.js",
+      "React",
+      "Redux",
+      "Docker",
+      "Figma",
+      "Git",
+      "Gitlab",
+      "Storybook",
+      "JS",
+      "HTML",
+      "CSS",
+      "Mini Apps Telegram",
+    ],
+    date: "December 3, 2024",
+    image: gamingImage,
+    url: "#",
+  },
+  {
     name: "Insider",
     description:
       "Insider, also known as Useinsider, is a private company founded in 2012. The company specializes in marketing technology, offering a range of solutions like customer data platforms, journey orchestration, personalization engines, and predictive marketing tools to deliver experiences across channels like Web, App, Web Push, Email, SMS, and Messaging Apps (WhatsApp, Facebook Messenger, RCS). It serves over 1,200 customers globally, including major brands like Samsung, GAP, Vodafone, IKEA, and Toyota​ (PitchBook)​​ (Craft.co)​.",
@@ -128,7 +172,7 @@ export const projectsData = [
       "HTML",
       "CSS",
     ],
-    date: "December 27, 2021",
+    date: "December 27, 2021 → December 1, 2024",
     image: insiderImage,
     url: "https://useinsider.com/",
   },
