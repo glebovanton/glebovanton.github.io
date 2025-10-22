@@ -52,7 +52,7 @@ export const experiencesData = [
     title: "Senior Software Developer",
     location: "Poland",
     description:
-        "2023–Present – I contribute to the development of large-scale web platforms in the iGaming and entertainment technology space, focusing on performance, maintainability, and accessibility." +
+        "2024–Present – I contribute to the development of large-scale web platforms in the iGaming and entertainment technology space, focusing on performance, maintainability, and accessibility." +
         "<br />• Led the migration of core applications to Next.js, improving build speed and SEO efficiency." +
         "<br />• Implemented advanced caching and code-splitting strategies that reduced initial load times by over 60%." +
         "<br />• Designed and developed reusable UI libraries, ensuring design consistency across multiple projects." +
@@ -71,7 +71,7 @@ export const experiencesData = [
     title: "Front-End Developer in Insider",
     location: "Lithuania",
     description:
-      "2021-2022 - The company has expanded its workforce and opened offices worldwide (28 countries with more than 700 employees from 41 different nationalities). Our goal was to improve onsite conversions with predictions." +
+      "2021-2024 - The company has expanded its workforce and opened offices worldwide (28 countries with more than 700 employees from 41 different nationalities). Our goal was to improve onsite conversions with predictions." +
       "<br />• Performance and page loading time improvement: Improved page load times by up to 90%, reducing delays from 30 seconds to under 3 seconds using advanced caching and optimization." +
       "<br />• Error tracking and debugging: We prioritized SLA tasks for app error tracking and debugging using Sentry." +
       "<br />• Design consistency: Ensured consistency across multi-product applications." +
